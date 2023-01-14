@@ -11,7 +11,6 @@ body {
 }
 
 .flex-container {
-    border: 5px solid black;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -21,12 +20,11 @@ body {
     margin-right: 370px;
 }
 
-.flex-container div {
-   
-}
+
 
 .profile {
     flex-wrap: wrap;
+    flex: 1;
 }
 
 h1 {
@@ -40,10 +38,25 @@ h1 {
     font-size: 35px;
 }
 
-.pics {
+
+/* Login */
+
+.login {
+    width: 370px;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid rgb(185, 181, 181);
     border-radius: 5px;
+    
 }
 
-#name {
-    color: red;
+.email, .password {
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 6px;
+    margin: 4px;
+    width: auto;
+
 }
