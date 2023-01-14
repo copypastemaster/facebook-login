@@ -40,7 +40,7 @@ h1 {
 
 .pics {
     display: inline-block;
-    border: 1px groove black;
+    border: 3px ridge rgb(228, 218, 218);
 }
 
 .pics img {
@@ -51,9 +51,45 @@ h1 {
 
 /* Login */
 
-.login {
+#login {
+    max-width: 400px;
+    min-width: 300px;
     border: 1px solid black;
+    margin-top: 40px;
+    display: flex;
+    padding: 0%;
+    flex: 1;
+    justify-content: center;
 }
 
+
+
+.email {
+    margin-top: 30%;
+    font-size: 22px;
+    border-radius: 5px;
+    
+}
+
+.password {
+    margin-top: 2%;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+.login {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 12px;    
+    font-size: 22px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.forgot{
+    color: rgb(44, 44, 211);
+    font-size: 15px;
+    font-weight: 600px;
+}
 
 
