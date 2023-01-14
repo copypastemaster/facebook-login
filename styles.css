@@ -5,14 +5,14 @@
 
 body {
     color: #1c1e21;
-    background: #fff;
+    background: rgba(245, 248, 250, 0.856);
     margin: 0;
     padding: 0;
 }
 
 .flex-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     height: 500px;
     margin: 100px;
@@ -20,7 +20,7 @@ body {
     margin-right: 370px;
 }
 
-
+/* Left-side profile */
 
 .profile {
     flex-wrap: wrap;
@@ -38,25 +38,22 @@ h1 {
     font-size: 35px;
 }
 
+.pics {
+    display: inline-block;
+    border: 1px groove black;
+}
+
+.pics img {
+    height: 140px;
+    width: 2
+}
+
 
 /* Login */
 
 .login {
-    width: 370px;
-    display: flex;
-    flex: 1;
-    flex-wrap: wrap;
-    flex-direction: row;
-    border: 1px solid rgb(185, 181, 181);
-    border-radius: 5px;
-    
+    border: 1px solid black;
 }
 
-.email, .password {
-    font-size: 20px;
-    padding: 5px;
-    border-radius: 6px;
-    margin: 4px;
-    width: auto;
 
-}
+
