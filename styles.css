@@ -13,12 +13,37 @@ body {
 .flex-container {
     border: 5px solid black;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     height: 500px;
-    margin: 120px;
+    margin: 100px;
+    margin-left: 370px;
+    margin-right: 370px;
 }
 
 .flex-container div {
-    border: 1px solid black;
+   
+}
+
+.profile {
+    flex-wrap: wrap;
+}
+
+h1 {
+    color: rgb(88, 88, 255);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#first {
+    font-weight: 300px;
+    font-size: 35px;
+}
+
+.pics {
+    border-radius: 5px;
+}
+
+#name {
+    color: red;
 }
