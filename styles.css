@@ -54,26 +54,28 @@ h1 {
 #login {
     max-width: 400px;
     min-width: 300px;
+    height: 300px;
     border: 1px solid black;
-    margin-top: 40px;
+    margin-top: 113px;
     display: flex;
     padding: 0%;
     flex: 1;
     justify-content: center;
+
 }
 
 
 
 .email {
-    margin-top: 30%;
-    font-size: 22px;
+    margin-top: 10%;
+    font-size: 24px;
     border-radius: 5px;
     
 }
 
 .password {
     margin-top: 2%;
-    font-size: 22px;
+    font-size: 24px;
     border-radius: 5px;
 }
 
@@ -81,15 +83,31 @@ h1 {
     display: block;
     margin-top: 12px;
     margin-bottom: 12px;    
-    font-size: 22px;
+    font-size: 24px;
     border-radius: 8px;
     width: 100%;
+    background: rgb(67, 67, 250);
+    color: white;
+    padding: 5px;
 }
 
 .forgot{
     color: rgb(44, 44, 211);
     font-size: 15px;
     font-weight: 600px;
+    text-decoration: none;
 }
 
+hr {
+    margin-bottom: 20px;
+}
+
+.create {
+    text-decoration: none;
+    background: rgb(99, 185, 99);
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
 
